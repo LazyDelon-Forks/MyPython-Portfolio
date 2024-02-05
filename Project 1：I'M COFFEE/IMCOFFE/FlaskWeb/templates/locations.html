@@ -1,0 +1,487 @@
+
+<!DOCTYPE html>
+
+<html lang="zh-Hant-TW">
+
+    <head>
+
+        <meta charset="utf-8">
+        <!--手機解析度-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--css-->
+        <!-- <link rel="stylesheet" type="text/css" href="https://www.tianji.com.tw/css/master.css?v=220121">
+        <link rel="stylesheet" type="text/css" href="https://www.tianji.com.tw/css/home.css?v=220121"> -->
+
+
+        <!-- <script src="https://www.tianji.com.tw/public/js/jquery-3.6.0.min.js"></script> -->
+
+        <link rel="stylesheet" type="text/css" href=" {{ url_for('static', filename='locations.css') }}">
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    </head>
+
+    <body class="WebSiteHome">
+
+
+        <!--outerWrap-->
+        <div class="outerWrap">
+
+    
+            <!--mainArea-->
+            <div class="mainArea" id="mainArea">
+
+                <div class="scrollDown"></div>
+
+                <!--storeArea-->
+                <div id="storeArea" class="storeArea">
+
+                    <div class="storeBox">
+
+                        <div class="storeListBoxMain">
+
+                            <div class="storeList">
+                                
+                                <div class="storeItem">
+				                    <div class="item clearfix">
+										<div class="Img">
+                                            
+                                            <a  title="!'M COFFEE 南美店">
+							                    <img src="{{ url_for('static', filename='./picture/location_1.jpg') }}" alt="!'M COFFEE 南美店">
+                                            </a>
+                                        </div>
+										
+                                        <div class="Txt">
+                                            <h3 class="title"><a >!'M COFFEE 南美店</a></h3>
+
+                                            <ul class="infoList">
+                                                <li><span class="name">電話</span><span class="text">06 221 4456</span></li>
+                                                <li><span class="name">地址</span><span class="text">700台南市中西區忠義路二段1號</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="storeItem">
+				                    <div class="item clearfix">
+										<div class="Img">
+
+                                            <a  title="!'M COFFEE 成功店">
+                                                <img src="{{ url_for('static', filename='./picture/location_2.jpg') }}" alt="!'M COFFEE 成功店">
+                                            </a>
+                                        </div>
+										
+                                        <div class="Txt">
+                                            <h3 class="title"><a >!'M COFFEE 成功店</a></h3>
+
+                                            <ul class="infoList">
+                                                <li><span class="name">電話</span><span class="text">06 208 1165</span></li>
+                                                <li><span class="name">地址</span><span class="text">700台灣台南市中西區成功路195號</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="storeItem">
+				                    <div class="item clearfix">
+										<div class="Img">
+                                            
+                                            <a  title="!'M COFFEE 大學店">
+							                    <img src="{{ url_for('static', filename='./picture/location_3.jpg') }}" alt="!'M COFFEE 大學店">
+                                            </a>
+                                        </div>
+										
+                                        <div class="Txt">
+                                            <h3 class="title"><a >!'M COFFEE 大學店</a></h3>
+
+                                            <ul class="infoList">
+                                                <li><span class="name">電話</span><span class="text">06 208 8302</span></li>
+                                                <li><span class="name">地址</span><span class="text">701台南市東區勝利路118號</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+	                
+                
+                        <div class="storeListBoxNav">
+
+                            <div class="storeList">
+                                
+                                <div class="storeItem">
+                                    
+                                    <div class="item clearfix">
+
+                                        <div class="Img">
+                                            <a  title="!'M COFFEE 南美店">
+
+                                                <img src="{{ url_for('static', filename='./picture/location_1.jpg') }}" alt="!'M COFFEE 南美店">
+                                            </a>
+                                        </div>
+                                                            
+                                        <div class="Txt">
+
+                                            <div class="topBox">
+                                                <h3 class="title"><a >!'M COFFEE 南美店</a></h3>			
+                                            </div>
+
+                                            <!-- <ul class="infoList">
+                                                <li><span class="name">電話</span><span class="text">06 221 4456</span></li>
+                                                <li><span class="name">地址</span><span class="text">700台南市中西區忠義路二段1號</span></li>
+                                            </ul> -->
+
+                                            <ul class="timeList">
+                                                <li>09:30<span>AM</span></li>
+                                                <li>07:00<span>PM</span></li>
+                                            </ul>
+                                        
+                                            <div class="btnBox">
+                                                <a class="silver" href="https://maps.app.goo.gl/YBSxbYNyrEit1bqa6" target="_blank" title="前往本店">前往本店</a>
+                                                <a class="orange" href="tel:06-221-4456" target="_blank" title="電話訂位">電話訂位</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+
+                                <div class="storeItem">
+                                    <div class="item clearfix">
+
+                                        <div class="Img">
+                                            <a  title="!'M COFFEE 成功店">
+                                                <img src="{{ url_for('static', filename='./picture/location_2.jpg') }}" alt="!'M COFFEE 成功店">
+                                            </a>
+                                        </div>
+
+                                        <div class="Txt">
+
+                                            <div class="topBox">
+                                                <h3 class="title"><a>!'M COFFEE 成功店</a></h3>
+                                            </div>
+
+                                            <!-- <ul class="infoList">
+                                                <li><span class="name">電話</span><span class="text">06 208 1165</span></li>
+                                                <li><span class="name">地址</span><span class="text">700台灣台南市中西區成功路195號</span></li>
+                                            </ul> -->
+
+                                            <ul class="timeList">
+                                                <li>07:00<span>AM</span></li>
+                                                <li>05:00<span>PM</span></li>
+                                            </ul>
+                                            
+                                            <div class="btnBox">
+                                                <a class="silver" href="https://maps.app.goo.gl/YQPjmd4Rmgt18Q197" target="_blank" title="前往本店">前往本店</a>
+                                                <a class="orange" href="tel:06-208-1165" target="_blank" title="電話訂位">電話訂位</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                <div class="storeItem">
+                                    <div class="item clearfix">
+
+                                        <div class="Img">
+                                            <a  title="!'M COFFEE 大學店">
+                                                <img src="{{ url_for('static', filename='./picture/location_3.jpg') }}" alt="!'M COFFEE 大學店">
+                                            </a>
+                                        </div>
+                                                            
+                                        <div class="Txt">
+
+                                            <div class="topBox">
+                                                <h3 class="title"><a>!'M COFFEE 大學店</a></h3>
+                                            </div>
+
+                                            <!-- <ul class="infoList">
+                                                <li><span class="name">電話</span><span class="text">06 208 8302</span></li>
+                                                <li><span class="name">地址</span><span class="text">701台南市東區勝利路118號</span></li>
+                                            </ul> -->
+
+                                            <ul class="timeList">
+                                                <li>09:00<span>AM</span></li>
+                                                <li>07:00<span>PM</span></li>
+                                            </ul>
+                                            
+                                            <div class="btnBox">
+                                                <a class="silver" href="https://maps.app.goo.gl/jSUJYtx6LVo9svPk8" target="_blank" title="前往本店">前往本店</a>
+                                                <a class="orange" href="tel:06-2088-302" target="_blank" title="電話訂位">電話訂位</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--slick-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script> 
+
+
+        <!--slick-->
+        <script>
+            // move the first slick-item to the bottom
+            function slickListAdjust (list, item, num){
+                function sort(list) {
+                    var listDom = $(list).find(item);
+                    var listLen = listDom.length;
+                    listDom.eq(listLen-1).after(listDom.eq(0));
+                }
+
+                for(var i=0; i<num; i++) {
+                    sort(list);
+                }
+            }
+
+            $(function() {
+
+                $('#banner').slick({
+                    arrows: true,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                    cssEase: 'ease-in-out',
+                    dots: true,
+                    fade: true,
+                    infinite: true,
+                    prevArrow: $('.bannerBox .arrowPrev'),
+                    nextArrow: $('.bannerBox .arrowNext'),
+                    speed: 1000,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                });
+
+                $('.storeListBoxMain .storeList').slick({
+                    arrows: false,
+                    autoplay: false,
+                    autoplaySpeed: 3000,
+                    asNavFor: '.storeListBoxNav .storeList',
+                    cssEase: 'ease-in-out',
+                    fade: true,
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                });
+                
+                $('.storeListBoxNav .storeList').slick({
+                    arrows: false,
+                    asNavFor: '.storeListBoxMain .storeList',
+                    cssEase: 'ease-in-out',
+                    focusOnSelect: true,
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    vertical: true,
+                    verticalSwiping: true,
+                    responsive: [
+                        {
+                            breakpoint: 1201,
+                            settings: {
+                                slidesToShow: 2
+                            }
+                        },
+                        {
+                            breakpoint: 641,
+                            settings: {
+                                dots: true,
+                                slidesToShow: 1,
+                                vertical: false,
+                                verticalSwiping: false
+                            }
+                        }
+                    ]
+                });
+
+                if($('.facListImg .facItem').length > 1) {
+                    $('.facListImg').slick({
+                        arrows: false,
+                        autoplay: true,
+                        autoplaySpeed: 3000,
+                        asNavFor: '.facListTxt',
+                        cssEase: 'ease-in-out',
+                        centerMode: true,
+                        centerPadding: '480px',
+                        infinite: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        responsive: [
+                            {
+                                breakpoint: 1441,
+                                settings: {
+                                    centerPadding: '400px',
+                                }
+                            },
+                            {
+                                breakpoint: 1201,
+                                settings: {
+                                    centerPadding: '300px',
+                                }
+                            },
+                            {
+                                breakpoint: 1025,
+                                settings: {
+                                    centerPadding: '200px',
+                                }
+                            },
+                            {
+                                breakpoint: 769,
+                                settings: {
+                                    centerPadding: '150px',
+                                }
+                            },
+                            {
+                                breakpoint: 641,
+                                settings: {
+                                    centerPadding: '120px',
+                                }
+                            },
+                            {
+                                breakpoint: 561,
+                                settings: {
+                                    centerPadding: '100px',
+                                }
+                            },
+                            {
+                                breakpoint: 481,
+                                settings: {
+                                    centerPadding: '80px',
+                                }
+                            },
+                            {
+                                breakpoint: 401,
+                                settings: {
+                                    centerPadding: '80px',
+                                }
+                            }
+                        ]
+                    });
+
+                    // $('.facListImg').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+                    //     $('.facListImg .slick-slide').removeClass('current');
+                    // }).on('afterChange', function(event, slick, currentSlide) {
+                    //     $('.facListImg .slick-current').addClass('current');
+                    // });
+                    // $('.facListImg .slick-current').addClass('current');
+
+                    $('.facListImg').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+                        $('.facListImg .slick-slide').removeClass('current prev next');
+                    }).on('afterChange', function(event, slick, currentSlide) {
+                        $('.facListImg .slick-current').addClass('current');
+                        $('.facListImg .slick-current').prev().addClass('prev');
+                        $('.facListImg .slick-current').next().addClass('next');
+                    });
+                    $('.facListImg .slick-current').addClass('current');
+                    $('.facListImg .slick-current').prev().addClass('prev');
+                    $('.facListImg .slick-current').next().addClass('next');
+
+                    $('.facListTxt').slick({
+                        arrows: false,
+                        asNavFor: '.facListImg',
+                        cssEase: 'ease-in-out',
+                        fade: true,
+                        infinite: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    });
+                }
+
+                $(window).on('resize', function() {
+                    $('.facListTxt').slick('resize');
+                }).resize();
+                
+                $('.menuListBoxMain .menuList').slick({
+                    arrows: true,
+                    autoplay: true,
+                    autoplaySpeed: 3000,
+                    asNavFor: '.menuListBoxNav .menuList',
+                    cssEase: 'ease-in-out',
+                    fade: true,
+                    infinite: true,
+                    prevArrow: '.menuListBoxMain .arrowBox .arrow.prev',
+                    nextArrow: '.menuListBoxMain .arrowBox .arrow.next',
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                });
+                
+                $('.menuListBoxNav .menuList').slick({
+                    arrows: true,
+                    asNavFor: '.menuListBoxMain .menuList',
+                    cssEase: 'ease-in-out',
+                    centerMode: true,
+                    centerPadding: '30px',
+                    focusOnSelect: true,
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    vertical: true,
+                    verticalSwiping: true
+                });
+                
+                if($('.menuListBoxNav .menuList .menuItem').length > 3) {
+                    $('.menuListBoxNav .menuList').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+                        $('.menuListBoxNav .slick-arrow').addClass('hide');
+                        $('.menuListBoxNav .slick-slide').removeClass('prev next');
+                    }).on('afterChange', function(event, slick, currentSlide) {
+                        $('.menuListBoxNav .slick-arrow').removeClass('hide');
+                        $('.menuListBoxNav .slick-current').prev().addClass('prev').prev().addClass('prev');
+                        $('.menuListBoxNav .slick-current').next().addClass('next').next().addClass('next');
+                    });
+                    $('.menuListBoxNav .slick-current').prev().addClass('prev').prev().addClass('prev');
+                    $('.menuListBoxNav .slick-current').next().addClass('next').next().addClass('next');
+                }
+
+                if($('.newsListTop .newsItem').length > 1) {
+                    $('.newsListTop').slick({
+                        arrows: false,
+                        asNavFor: '.newsListBottom',
+                        cssEase: 'ease-in-out',
+                        fade: true,
+                        infinite: true,
+                    });
+                    slickListAdjust('.newsListBottom', '.newsItem', 1);
+                }
+                
+                $('.newsListBottom').slick({
+                    arrows: true,
+                    autoplay: false,
+                    asNavFor: '.newsListTop',
+                    cssEase: 'ease-in-out',
+                    fade: true,
+                    infinite: true,
+                    prevArrow: '.newsBox .arrowBox .arrow.prev',
+                    nextArrow: '.newsBox .arrowBox .arrow.next'
+                });
+                
+                $('.newsBox .arrowBox .arrow').hover(function(e) {
+                    $(this).addClass('show').siblings().removeClass('show');
+                });
+
+                if($('.ellipsis').length) {
+                    $('.ellipsis').dotdotdot({
+                        wrap: 'letter',
+                        remove: [ ' ', ',', ';', '.', '!', '?' ],
+                        watch: true
+                    });
+                }
+                
+
+                window.visualViewport.addEventListener("resize", function(e) {
+                    if (e.target.scale > 1) { 
+                        $('.slick-slider').slick('slickSetOption', 'swipe', false, false);
+                    } else {
+                        $('.slick-slider').slick('slickSetOption', 'swipe', true, false);
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
