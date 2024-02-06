@@ -6,5 +6,26 @@
 ➤  **網址：** [**Finance Web**](https://zxc884162.pythonanywhere.com/)
 
 
-## 🎓 
+## 📋 網頁實際頁面
 
+
+**1. Home Page 首頁**
+
+&nbsp; <img src="./Images/Home.png" alt="Home" style="width:600px"/>
+
+
+**2. Finance Report 財報**
+
+&nbsp; <img src="./Images/Finance Report.png" alt="Finance Report" style="width:600px"/>
+
+**3. Finance Category 類別**
+
+&nbsp; <img src="./Images/Finance Category.png" alt="Finance Category" style="width:600px"/>
+
+**4. 機器學習**
+
+&nbsp; <img src="./Images/Finance ML.png" alt="Finance ML" style="width:600px"/>
+
+**5. 正負樣本**
+
+&nbsp; <img src="./Images/Positive and negative samples.png" alt="Positive and negative samples" style="width:600px"/>
