@@ -1,1 +1,2 @@
-# MyPython-Portfolio
+**由於本人使用免費 Pythonantwhere 進行架設，
+所以一個帳號只能架設一個網站，這也是為何網域有所不同。**
