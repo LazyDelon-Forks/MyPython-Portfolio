@@ -7,6 +7,10 @@
 
 
 
+## 📋 [**如需更完整頁面請到該儲存庫**](https://github.com/LazyDelon/Thematic-Production/tree/60391eb9a558790e0738b7a21c21ba0ab4ef1e74)
+
+### **該儲存庫 提供 投影片 精簡報告 專題報告 解說影片 所有程式(包括各版本)**
+
 
 ## 📋 網頁實際頁面
 
