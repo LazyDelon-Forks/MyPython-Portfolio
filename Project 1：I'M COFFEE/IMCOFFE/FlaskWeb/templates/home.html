@@ -1,0 +1,438 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+
+    <div class="desktop-carousel">
+
+        <!--  Carousel -->
+        <div id="Carousel" class="scroll-carousel carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#Carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#Carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#Carousel" data-bs-slide-to="2"></button>
+            </div>
+
+            
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    
+                    <img src="{{ url_for('static', filename='./picture/Carousel_1.jpg') }}" class="d-block img-fluid" style="width:100%" alt="...">
+                    
+                    <div class="carousel-caption">
+                        <h5> LATEST NEWS </h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    
+                    <img src="{{ url_for('static', filename='./picture/Carousel_2.jpg') }}" class="d-block img-fluid" style="width:100%" alt="...">
+                    
+                    <div class="carousel-caption">
+                        <h5> LATEST NEWS </h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <img src="{{ url_for('static', filename='./picture/Carousel_3.jpg') }}" class="d-block img-fluid" style="width:100%" alt="...">
+
+                    <div class="carousel-caption">
+                        <h5> LATEST NEWS </h5>
+                    </div>
+                </div>
+            </div>     
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+
+
+    
+
+    
+    
+
+
+
+
+
+    <div class="mobile-carousel">
+
+        <div id="Carousel-Mobile" class="scroll-carousel carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#Carousel-Mobile" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#Carousel-Mobile" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#Carousel-Mobile" data-bs-slide-to="2"></button>
+            </div>
+
+            
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    
+                    <img src="{{ url_for('static', filename='./picture/Carousel Mobile1.jpg') }}" class="d-block img-fluid" style="width:100%" alt="...">
+                    
+                    <div class="carousel-caption">
+                        <h5> LATEST NEWS </h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    
+                    <img src="{{ url_for('static', filename='./picture/Carousel Mobile2.jpg') }}" class="d-block img-fluid" style="width:100%" alt="...">
+                    
+                    <div class="carousel-caption">
+                        <h5> LATEST NEWS </h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <img src="{{ url_for('static', filename='./picture/Carousel Mobile3.jpg') }}" class="d-block img-fluid" style="width:100%" alt="...">
+
+                    <div class="carousel-caption">
+                        <h5> LATEST NEWS </h5>
+                    </div>
+                </div>
+            </div>     
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#Carousel-Mobile" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#Carousel-Mobile" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="newsArea"><!--newsArea-->
+
+        <div class="wrap"><!--wrap-->
+
+            <div class="newsBox">   
+
+                <div class="titleBox"><!-- titleBox -->
+
+                    <em class="titleEn">News</em>
+                    <h2 class="titleTw">最丨新丨消丨息</h2>
+                </div><!-- titleBox end -->
+
+                <div class="newsList">
+                    <div class="newsItem">
+                        <div class="item clearfix"><!-- item -->
+                            <div class="Img"><a href="#"  title="加入!'M 官方 Line 可享新品組合 88 折">
+                                <img src="{{ url_for('static', filename='./picture/New1.jpg') }}" alt="加入!'M 官方 Line 可享新品組合 88 折">
+                            </div>
+
+                                <div class="Txt">
+                                    <div class="dateBox">
+                                        <div class="date">
+                                            <span class="day">22</span>
+                                            <div class="yearMonth">
+                                                <span class="year">2023</span>
+                                                <span class="month">Nov</span>
+                                            </div>
+                                        </div>
+                                    <div class="classTitle">新店開幕</div>
+                                </div>
+
+                                <h3 class="title"><a href="#"  title="加入!'M 官方 Line 可享新品組合 88 折">加入!'M 官方 Line 可享新品組合 88 折</a></h3>	
+                            </div>
+                        </div><!-- item end -->
+                    </div>
+
+
+                    <div class="newsItem">
+                        <div class="item clearfix"><!-- item -->
+                            <div class="Img"><a href="#"  title="!'M 活力補給 買一送一">
+                                <img src="{{ url_for('static', filename='./picture/New2.jpg') }}" alt="!'M 活力補給 買一送一">
+                            </div>
+
+                                <div class="Txt">
+                                    <div class="dateBox">
+                                        <div class="date">
+                                            <span class="day">02</span>
+                                            <div class="yearMonth">
+                                                <span class="year">2024</span>
+                                                <span class="month">Jan</span>
+                                            </div>
+                                        </div>
+                                    <div class="classTitle">優惠活動</div>
+                                </div>
+
+                                <h3 class="title"><a href="#"  title="!'M 活力補給 買一送一">!'M 活力補給 買一送一</a></h3>	
+                            </div>
+                        </div><!-- item end -->
+                    </div>
+
+                    <div class="newsItem">
+                        <div class="item clearfix"><!-- item -->
+                            <div class="Img"><a href="#"  title="!'M 啡嘗速">
+                                <img src="{{ url_for('static', filename='./picture/New3.jpg') }}" alt="!'M 啡嘗速">
+                            </div>
+
+                                <div class="Txt">
+                                    <div class="dateBox">
+                                        <div class="date">
+                                            <span class="day">31</span>
+                                            <div class="yearMonth">
+                                                <span class="year">2023</span>
+                                                <span class="month">Dec</span>
+                                            </div>
+                                        </div>
+                                    <div class="classTitle">優惠活動</div>
+                                </div>
+
+                                <h3 class="title"><a href="#"  title="!'M 啡嘗速">!'M 啡嘗速 消費滿 150元 輸入折扣碼 IM30</a></h3>	
+                            </div>
+                        </div><!-- item end -->
+                    </div>
+
+                </div>
+                                        
+                <div class="masterArrowBox"><!--arrowBox-->
+                    <div class="arrow arrowPrev"><span></span></div>
+                    <div class="arrow arrowNext"><span></span></div>
+                </div><!--arrowBox end-->
+
+                <div class="dotsBox"></div>
+            </div>
+        </div><!--wrap end-->
+    </div><!--newsArea end--> 
+
+
+    <div class="locations">
+
+        <!--outerWrap-->
+        <div class="outerWrap">
+
+            <div class="newsBox">   
+
+                <div class="titleBox"><!-- titleBox -->
+
+                    <em class="titleEn">OUR LOCATION</em>
+                    <h2 class="titleTw">門丨市丨據丨點</h2>
+                </div><!-- titleBox end -->
+
+            
+                <!--mainArea-->
+                <div class="mainArea" id="mainArea">
+
+                    <!-- <div class="scrollDown"></div> -->
+
+                    <!--storeArea-->
+                    <div id="storeArea" class="storeArea">
+
+                        <div class="storeBox container">
+
+                            <div class="storeListBoxMain">
+
+                                <div class="storeList">
+                                    
+                                    <div class="storeItem">
+                                        <div class="item clearfix">
+                                            <div class="Img">
+                                                
+                                                <a  title="!'M COFFEE 南美店">
+                                                    <img src="{{ url_for('static', filename='./picture/location_1.jpg') }}" alt="!'M COFFEE 南美店">
+                                                </a>
+                                            </div>
+                                            
+                                            <div class="Txt">
+                                                <h3 class="title"><a >!'M COFFEE 南美店</a></h3>
+
+                                                <ul class="infoList">
+                                                    <li><span class="name">電話</span><span class="text">06 221 4456</span></li>
+                                                    <li><span class="name">地址</span><span class="text">700台南市中西區忠義路二段1號</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="storeItem">
+                                        <div class="item clearfix">
+                                            <div class="Img">
+
+                                                <a  title="!'M COFFEE 成功店">
+                                                    <img src="{{ url_for('static', filename='./picture/location_2.jpg') }}" alt="!'M COFFEE 成功店">
+                                                </a>
+                                            </div>
+                                            
+                                            <div class="Txt">
+                                                <h3 class="title"><a >!'M COFFEE 成功店</a></h3>
+
+                                                <ul class="infoList">
+                                                    <li><span class="name">電話</span><span class="text">06 208 1165</span></li>
+                                                    <li><span class="name">地址</span><span class="text">700台灣台南市中西區成功路195號</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="storeItem">
+                                        <div class="item clearfix">
+                                            <div class="Img">
+                                                
+                                                <a  title="!'M COFFEE 大學店">
+                                                    <img src="{{ url_for('static', filename='./picture/location_3.jpg') }}" alt="!'M COFFEE 大學店">
+                                                </a>
+                                            </div>
+                                            
+                                            <div class="Txt">
+                                                <h3 class="title"><a >!'M COFFEE 大學店</a></h3>
+
+                                                <ul class="infoList">
+                                                    <li><span class="name">電話</span><span class="text">06 208 8302</span></li>
+                                                    <li><span class="name">地址</span><span class="text">701台南市東區勝利路118號</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        
+                    
+                            <div class="storeListBoxNav">
+
+                                <div class="storeList">
+                                    
+                                    <div class="storeItem">
+                                        
+                                        <div class="item clearfix">
+
+                                            <div class="Img">
+                                                <a  title="!'M COFFEE 南美店">
+
+                                                    <img src="{{ url_for('static', filename='./picture/location_1.jpg') }}" alt="!'M COFFEE 南美店">
+                                                </a>
+                                            </div>
+                                                                
+                                            <div class="Txt">
+
+                                                <div class="topBox">
+                                                    <h3 class="title"><a >!'M COFFEE 南美店</a></h3>			
+                                                </div>
+
+                                                <!-- <ul class="infoList">
+                                                    <li><span class="name">電話</span><span class="text">06 221 4456</span></li>
+                                                    <li><span class="name">地址</span><span class="text">700台南市中西區忠義路二段1號</span></li>
+                                                </ul> -->
+
+                                                <ul class="timeList">
+                                                    <li>09:30<span>AM</span></li>
+                                                    <li>07:00<span>PM</span></li>
+                                                </ul>
+                                            
+                                                <div class="btnBox">
+                                                    <a class="silver" href="https://maps.app.goo.gl/YBSxbYNyrEit1bqa6" target="_blank" title="前往本店">前往本店</a>
+                                                    <a class="orange" href="tel:06-221-4456" target="_blank" title="電話訂位">電話訂位</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+
+
+                                    <div class="storeItem">
+                                        <div class="item clearfix">
+
+                                            <div class="Img">
+                                                <a  title="!'M COFFEE 成功店">
+                                                    <img src="{{ url_for('static', filename='./picture/location_2.jpg') }}" alt="!'M COFFEE 成功店">
+                                                </a>
+                                            </div>
+
+                                            <div class="Txt">
+
+                                                <div class="topBox">
+                                                    <h3 class="title"><a>!'M COFFEE 成功店</a></h3>
+                                                </div>
+
+                                                <!-- <ul class="infoList">
+                                                    <li><span class="name">電話</span><span class="text">06 208 1165</span></li>
+                                                    <li><span class="name">地址</span><span class="text">700台灣台南市中西區成功路195號</span></li>
+                                                </ul> -->
+
+                                                <ul class="timeList">
+                                                    <li>07:00<span>AM</span></li>
+                                                    <li>05:00<span>PM</span></li>
+                                                </ul>
+                                                
+                                                <div class="btnBox">
+                                                    <a class="silver" href="https://maps.app.goo.gl/YQPjmd4Rmgt18Q197" target="_blank" title="前往本店">前往本店</a>
+                                                    <a class="orange" href="tel:06-208-1165" target="_blank" title="電話訂位">電話訂位</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+
+                                    <div class="storeItem">
+                                        <div class="item clearfix">
+
+                                            <div class="Img">
+                                                <a  title="!'M COFFEE 大學店">
+                                                    <img src="{{ url_for('static', filename='./picture/location_3.jpg') }}" alt="!'M COFFEE 大學店">
+                                                </a>
+                                            </div>
+                                                                
+                                            <div class="Txt">
+
+                                                <div class="topBox">
+                                                    <h3 class="title"><a>!'M COFFEE 大學店</a></h3>
+                                                </div>
+
+                                                <!-- <ul class="infoList">
+                                                    <li><span class="name">電話</span><span class="text">06 208 8302</span></li>
+                                                    <li><span class="name">地址</span><span class="text">701台南市東區勝利路118號</span></li>
+                                                </ul> -->
+
+                                                <ul class="timeList">
+                                                    <li>09:00<span>AM</span></li>
+                                                    <li>07:00<span>PM</span></li>
+                                                </ul>
+                                                
+                                                <div class="btnBox">
+                                                    <a class="silver" href="https://maps.app.goo.gl/jSUJYtx6LVo9svPk8" target="_blank" title="前往本店">前往本店</a>
+                                                    <a class="orange" href="tel:06-2088-302" target="_blank" title="電話訂位">電話訂位</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+{% endblock content %}
+

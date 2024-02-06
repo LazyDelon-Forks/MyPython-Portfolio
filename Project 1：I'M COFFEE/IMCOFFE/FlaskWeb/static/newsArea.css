@@ -1,0 +1,819 @@
+/*******************************************************************************
+* newsArea
+*******************************************************************************/
+
+.newsArea {
+
+  padding: 90px 0 60px;
+
+  background-size: cover;
+  background-color: #333333;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.newsArea .wrap {
+  max-width: 1500px;
+  position: relative;
+}
+
+.newsArea .titleBox {
+
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  
+  padding-left: 10px;
+  margin-bottom: 60px;
+
+  align-items: baseline;
+  -ms-flex-align: baseline;
+  -webkit-box-align: baseline;
+}
+
+.newsArea .titleBox .titleEn {
+
+  color: #fff;
+  font-style: normal;
+  padding-right: 60px;
+}
+
+.newsArea .newsBox {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.titleBox {
+  text-align: center;
+  margin-bottom: -30px;
+}
+
+.titleBox .titleEn {
+  font-size: 70px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.titleBox .titleTw {
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #b49a80;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+}
+
+.newsArea .newsItem {
+  padding: 0 20px;
+}
+
+.newsArea .Img {
+  height: 340px;
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+.newsArea .Img:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);      
+}
+
+.newsArea .Img img {
+  width: 100%;
+}
+
+.newsArea .Txt {
+  padding-top: 10px;
+  position: relative;
+}
+
+.newsArea .Txt .dateBox {
+
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+      
+  -ms-flex-pack: justify;    
+  -webkit-box-pack: justify;
+
+  padding-bottom: 5px; 
+  justify-content: space-between;
+}
+
+.newsArea .Txt .date {
+
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+}
+
+.newsArea .Txt .day {
+  font-size: 50px;
+  color: #b49a80;
+  padding-right: 15px;
+}
+
+.newsArea .Txt .year,
+.newsArea .Txt .month {
+  display: block;
+  font-size: 18px;
+  color: #848484;
+}
+
+.newsArea .Txt .title {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.newsArea .Txt .title a {
+  color: #b49a80;
+}
+
+.newsArea .Txt .title a:hover {
+  color: #fff;
+}
+
+.newsArea .Txt .classTitle {
+
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #fff;
+  padding: 6px 15px;
+  letter-spacing: 1px;
+  border: 1px solid #848484;
+}
+
+.newsArea .Txt .text {
+
+  font-size: 20px;
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  
+  color: #d6d6d6;
+
+  display: -webkit-box;
+
+  padding-top: 10px;
+  border-top: 1px solid #848484;
+
+  line-height: 1.6;
+  letter-spacing: 2px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.newsArea .masterArrowBox .arrow {
+  background: transparent;
+  border: 2px solid #fff;
+}
+
+.newsArea .masterArrowBox .arrow:hover {
+  background: #fff;
+}
+
+.newsArea .masterArrowBox .arrow:hover::before {
+  border-top: 2px solid #83776a;
+  border-left: 2px solid #83776a;
+}
+
+.newsArea .masterArrowBox .arrow:hover::after {
+  background: #83776a;
+}
+
+.newsArea .masterArrowBox .arrow::before {
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+}
+
+.newsArea .masterArrowBox .arrow::after {
+  background: #fff;
+}
+
+.newsArea .masterArrowBox .arrowPrev {
+  left: 25px;
+}
+
+.newsArea .masterArrowBox .arrowNext {
+  right: 25px;
+}
+
+.newsArea .dotsBox {
+  display: none;
+}
+
+
+
+/*******************************************************************************
+* masterBtn
+*******************************************************************************/
+
+.aboutArea .dotsBox {
+  display: none;
+}
+
+.masterBtn a {
+
+  width: 100%;
+  max-width: 225px;
+
+  font-size: 17px;
+  padding: 20px 40px;
+  border-radius: 50px;
+  letter-spacing: 0.5px;
+
+  display: block;
+  position: relative;
+  
+  color: #83776a;
+  background-color: #fff;
+
+  box-shadow: 0px 0px 28.42px 0.58px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0px 0px 28.42px 0.58px rgba(0, 0, 0, 0.06);
+}
+
+.masterBtn a:hover {
+  color: #bea58b;
+  background-color: #282828;
+}
+
+.masterBtn a:hover::after {
+  transform: translateY(-50%) translateX(10px);
+  -webkit-transform: translateY(-50%) translateX(10px);
+}
+
+.masterBtn a::after {
+
+  top: 50%;
+  right: 20px;
+
+  width: 23px;
+  height: 23px;
+
+  content: "";
+  display: block;
+  position: absolute;
+  
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          
+  background-repeat: no-repeat;
+  background: url(../images/moreArrow.png);
+}
+
+.masterArrowBox {
+  display: block;
+}
+
+.masterArrowBox .arrow {
+
+  width: 55px;
+  height: 55px;
+
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.masterArrowBox .arrowPrev, .masterArrowBox .arrowNext {
+
+  top: 53%;
+
+  z-index: 2;
+  position: absolute;
+
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+.masterArrowBox .arrow::before {
+
+  top: 44%;
+
+  width: 8px;
+  height: 8px;
+
+  content: "";
+  border: none;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+
+  border-top: 2px solid #bea58b;
+  border-left: 2px solid #bea58b;
+
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+.masterArrowBox .arrow::after {
+
+  top: 50%;
+
+  width: 15px;
+  height: 2px;
+
+  content: "";
+
+  display: block;
+  position: absolute;
+  background: #bea58b;
+}
+
+.masterArrowBox .arrowPrev {
+  left: 45px;
+}
+
+.masterArrowBox .arrowPrev::before {
+
+  right: 0;
+  left: -5px;
+  
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.masterArrowBox .arrowPrev::after {
+  left: 40%;
+}
+
+.masterArrowBox .arrowNext {
+  right: 45px;
+}
+
+.masterArrowBox .arrowNext::before {
+
+  left: 0;
+  right: -10px;
+
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.masterArrowBox .arrowNext::after {
+  right: 35%;
+}
+
+.dotsBox .dots {
+  display: block;
+  text-align: center;
+}
+
+.dotsBox .dots li {
+  margin: 0 8px;
+
+  cursor: pointer;
+  display: inline-block;
+}
+
+.dotsBox .dots li button {
+
+  width: 10px;
+  height: 10px;
+
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+
+  display: block;
+  cursor: pointer;
+
+  border: none;
+  border-radius: 100%;
+  
+  background: #cdcdcd;
+}
+
+
+.dotsBox .dots .slick-active button {
+  width: 30px;
+  border-radius: 50px;
+  background: #83776a;
+}
+
+.tagList {
+
+  color: #fff;
+
+  padding-top: 30px;
+  text-align: center;
+  position: relative;
+
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+
+  font-size: 18px;
+  font-family: "Russo One", sans-serif;
+}
+
+.tagList .tag {
+
+  width: 35px;
+  height: 35px;
+
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 100%;
+
+  position: relative;
+}
+
+.tagList .tag::before {
+
+  top: 50%;
+  left: 50%;
+
+  width: 110%;
+  height: 110%;
+  
+  border-radius: 100%;
+
+  z-index: -1;
+  content: "";
+  display: block;
+  position: absolute;
+  background: #fff;
+
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.tagList span {
+
+  top: 50%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  margin: 0 auto;
+  position: absolute;
+  
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+a.main {
+
+  width: 60px;
+  height: 60px;
+
+  display: block;
+  position: relative;
+}
+
+a.main:hover span:before {
+  top: 0;
+}
+
+a.main:hover span:after {
+  bottom: 0;
+}
+
+a.main span {
+
+  top: 50%;
+  left: 50%;
+
+  width: 45px;
+  height: 2px;
+
+  position: absolute;
+
+  background-color: #282828;
+
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+a.main span:before, a.main span:after {
+
+  left: 0;
+
+  width: 100%;
+  height: 3px;
+
+  content: "";
+  position: absolute;
+  
+  background-color: #282828;
+
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+}
+
+a.main span:before {
+  top: -11px;
+}
+
+a.main span:after {
+  bottom: -11px;
+}
+
+.lg-on {
+  overflow: hidden;
+}
+
+body {
+
+  background-color: #fff;
+
+  font-size: 14px;
+  font-family: "Russo One", "Noto Sans Tc", Helvetica, Arial, "微軟正黑體", "Heiti TC", "メイリオ", sans-serif;
+}
+
+body.overflow, body.popwinOverflow, body.loadingOverflow {
+  overflow: hidden;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  color: #83776a;
+  cursor: pointer;
+
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+
+a:hover {
+  color: #bea58b;
+}
+
+div.titan {
+  display: none;
+}
+
+[class*=col-] {
+  float: left;
+}
+
+.col-1 {
+  width: 100%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 33.33%;
+}
+
+.col-4 {
+  width: 25%;
+}
+
+.col-5 {
+  width: 20%;
+}
+
+.btn_color1 {
+  color: #bea58b;
+  background-color: #fff;
+}
+
+.btn_color1:hover {
+  background-color: #101010;
+}
+
+.btn_color2 {
+  color: #fff;
+  background-color: #A0A0A0;
+}
+
+.btn_color2:hover {
+  background-color: #999;
+}
+
+.btn1.center {
+  text-align: center;
+}
+
+.btn1.full a {
+  width: 100%;
+  margin: 0;
+}
+
+.btn1 a {
+  min-width: 190px;
+
+  color: #fff;
+  border: 1px solid #0e0e0e;
+  background-color: #0e0e0e;
+ 
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  
+  z-index: 1;
+  margin: 5px;
+  font-size: 14px;
+  padding: 13px 30px;
+  letter-spacing: 0.01em;
+}
+
+.btn1 a::after {
+
+  top: 0;
+  right: 0;
+  
+  width: 0;
+  height: 100%;
+
+  z-index: -1;
+  content: "";
+  position: absolute;
+  
+  background-color: #282828;
+
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+
+.btn1 a:hover {
+  border-color: #282828;
+}
+
+.btn1 a:hover::after {
+  left: 0;
+  right: auto;
+  
+  width: 100%;
+}
+
+.btn1 a.white {
+  color: #68a9b1;
+  background-color: #fff;
+  border: 1px solid #68a9b1;
+}
+
+.btn1 a.white::after {
+  background-color: #68a9b1;
+}
+
+.btn1 a.white:hover {
+  color: #fff;
+}
+
+input[type=text],
+input[type=password],
+textarea,
+button {
+ 
+  margin: 0;
+  padding: 0;
+
+  font-size: 16px;
+
+  outline: none;
+  background-color: transparent;
+
+  border: none;
+  border-radius: 0;
+
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.outerWrap {
+  position: relative;
+}
+
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1300px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+/*******************************************************************************
+* Grid
+*******************************************************************************/
+
+@media (max-width: 480px) {
+
+  .titleBox .titleEn {
+    font-size: 51px;
+  }
+  
+  .titleBox .titleTw {
+    font-size: 21px;
+    font-weight: bold;
+  }
+  
+  .newsArea .newsBox {
+    padding: 0;
+  }
+  
+  .newsArea .newsItem {
+    padding: 0;
+  }
+  
+  .newsArea .masterArrowBox {
+    display: none;
+  }
+  
+  .newsArea .dotsBox {
+    display: block;
+  }
+  
+  .masterBtn a {
+    max-width: 190px;
+  }
+  
+  .col-1, .col-2, .col-3, .col-4, .col-5 {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .newsArea {
+    padding: 40px 0;
+  }
+
+  .locations {
+    padding: 40px 0;
+  }
+  
+  .newsArea .Txt .day {
+    font-size: 40px;
+  }
+  
+  .newsArea .Txt .year,
+  .newsArea .Txt .month {
+    font-size: 14px;
+  }
+  
+  .newsArea .Txt .classTitle {
+    font-size: 14px;
+  }
+  
+  .newsArea .Txt .text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .newsArea .masterArrowBox .arrowPrev {
+    left: 15px;
+  }
+  
+  .newsArea .masterArrowBox .arrowNext {
+    right: 15px;
+  }
+}
+
+@media (max-width: 1180px) {
+
+  .newsArea .titleBox {
+      
+    align-items: center;
+    -ms-flex-align: center;
+
+    flex-direction: column;
+    -ms-flex-direction: column;
+
+    -webkit-box-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+  }
+
+
+  .newsArea .titleBox .titleEn {
+    padding: 0;
+  }
+
+  .outerWrap {
+    padding-bottom: calc(60px + env(safe-area-inset-bottom));
+  }
+}
