@@ -57,9 +57,9 @@
 
 ## **6. Home Page 手機板 首頁**
 
-&nbsp; <img src="./Images/Home Mobile.jpg" alt="Home Mobile" style="width:1200px"/>
+&nbsp; <img src="./Images/Home Mobile.jpg" alt="Home Mobile" style="width:50%"/>
 
 
 ## **7. NewArea 手機板 最新消息**
 
-&nbsp; <img src="./Images/NewArea Mobile.jpg" alt="NewArea" style="width:1200px"/>
+&nbsp; <img src="./Images/NewArea Mobile.jpg" alt="NewArea" style="width:50%"/>
