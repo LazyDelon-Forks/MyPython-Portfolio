@@ -11,21 +11,21 @@
 
 **1. Home Page 首頁**
 
-&nbsp; <img src="./Images/Home.png" alt="Home" style="width:800px"/>
+&nbsp; <img src="./Images/Home.png" alt="Home" style="width:1200px"/>
 
 
 **2. Finance Report 財報**
 
-&nbsp; <img src="./Images/Finance Report.png" alt="Finance Report" style="width:800px"/>
+&nbsp; <img src="./Images/Finance Report.png" alt="Finance Report" style="width:1200px"/>
 
 **3. Finance Category 類別**
 
-&nbsp; <img src="./Images/Finance Category.png" alt="Finance Category" style="width:800px"/>
+&nbsp; <img src="./Images/Finance Category.png" alt="Finance Category" style="width:1200px"/>
 
 **4. 機器學習**
 
-&nbsp; <img src="./Images/Finance ML.png" alt="Finance ML" style="width:800px"/>
+&nbsp; <img src="./Images/Finance ML.png" alt="Finance ML" style="width:1200px"/>
 
 **5. 正負樣本**
 
-&nbsp; <img src="./Images/Positive and negative samples.png" alt="Positive and negative samples" style="width:800px"/>
+&nbsp; <img src="./Images/Positive and negative samples.png" alt="Positive and negative samples" style="width:1200px"/>
