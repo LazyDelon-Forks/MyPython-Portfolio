@@ -12,7 +12,7 @@
 ### **0. 其餘功能：clear chat 清除訊息**
 ### **0. 其餘功能：Upload File 尚未開發完成(讓使用者能發送圖片)**
 
-➤  **網址：** [**Flask Chat Room**](https://s108000395.pythonanywhere.com/login?next=%2F))  
+➤  **網址：** [**Flask Chat Room**](https://s108000395.pythonanywhere.com/login?next=%2F)
 
 ## 📋 待開發項目
 
