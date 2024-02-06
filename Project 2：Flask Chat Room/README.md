@@ -35,3 +35,42 @@
 | **03**	| **聊天室房間設定** | 
 | **04**	| **聊天室回訊息時顯示用戶頭貼** | 
 
+
+
+
+## 📣 
+
+## **1. Login 登入頁面**
+
+
+&nbsp; <img src="./Images/Login" alt="Login" style="width:1200px"/>
+
+
+
+## **2. Register 註冊頁面**
+
+
+&nbsp; <img src="./Images/Register.png" alt="Register" style="width:1200px"/>
+
+
+
+## **3. Account 帳戶資訊**
+
+
+&nbsp; <img src="./Images/Account.png" alt="Account" style="width:1200px"/>
+
+
+
+## **4. Room 房間設定**
+
+
+&nbsp; <img src="./Images/Room.png" alt="Room" style="width:1200px"/>
+
+
+
+
+## **5. Enter Message 輸入訊息**
+
+
+&nbsp; <img src="./Images/keybord.png" alt="Message" style="width:1200px"/>
+
